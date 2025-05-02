@@ -31,4 +31,50 @@ Ce backend fournit une architecture robuste et sécurisée pour un système e-co
 
 ## 📁 Structure du projet
 
+backend/
+├── app/
+│ ├── Http/
+│ │ ├── Controllers/
+│ │ ├── Middleware/
+│ ├── Models/
+├── database/
+│ ├── migrations/
+│ ├── seeders/
+├── routes/
+│ └── api.php
+├── .env
+└── config/
+└── jwt.php
+
+
+---
+
+## 🚀 Fonctionnalités API
+
+Voici les principales fonctionnalités que ce backend prend en charge :
+
+- 🔐 **Authentification des utilisateurs**
+    - Inscription des utilisateurs
+    - Connexion via JWT (Token)
+    - Récupération du profil utilisateur
+    - Mise à jour du profil utilisateur
+
+- 🛒 **Gestion des produits**
+    - Affichage des produits (liste et détails)
+    - Catégorisation des produits
+
+- 🛍️ **Gestion du panier**
+    - Ajouter/supprimer des produits au panier
+    - Affichage du contenu du panier
+
+- 📦 **Gestion des commandes**
+    - Passer une commande
+    - Consulter l'historique des commandes
+    - Gérer le statut des commandes
+
+- 📊 **Gestion des rôles et autorisation** (Admin)
+    - CRUD pour gérer les produits, les utilisateurs et les commandes
+    - Statistiques des ventes
+
+---
 
